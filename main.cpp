@@ -55,7 +55,7 @@ void timer(int){
 
 void drawText(char str[],float x,float y){
 
-        glColor3f(1,0,0);
+        glColor3f(1,1,0);
         glPushMatrix();
         glTranslatef(x,y,0);
         glScalef(.1,.2,.1);
@@ -255,7 +255,6 @@ static void display(void)
     }
 
     glutSwapBuffers();
-    glFlush();
 
 }
 

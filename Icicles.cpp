@@ -49,7 +49,7 @@ class Icicles {
     void drawText(int score){
         char str[20];
 
-        glColor3f(1,0,0);
+        glColor3f(1,1,0);
         glPushMatrix();
         sprintf(str,"S c o r e : %d",score);
         glTranslatef(40,Constants::WORLD_HEIGHT-40,0);
